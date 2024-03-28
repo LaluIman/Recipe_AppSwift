@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81CE695B2BB5652F00EE69E3 /* Ummi_RecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE695A2BB5652F00EE69E3 /* Ummi_RecipeApp.swift */; };
+		81CE695F2BB5653200EE69E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CE695E2BB5653200EE69E3 /* Assets.xcassets */; };
+		81CE69622BB5653200EE69E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CE69612BB5653200EE69E3 /* Preview Assets.xcassets */; };
+		81CE696C2BB5653200EE69E3 /* Ummi_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE696B2BB5653200EE69E3 /* Ummi_RecipeTests.swift */; };
+		81CE69762BB5653200EE69E3 /* Ummi_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE69752BB5653200EE69E3 /* Ummi_RecipeUITests.swift */; };
+		81CE69782BB5653200EE69E3 /* Ummi_RecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE69772BB5653200EE69E3 /* Ummi_RecipeUITestsLaunchTests.swift */; };
+		81CE69882BB565B900EE69E3 /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE69872BB565B800EE69E3 /* RecipeClass.swift */; };
+		81CE698A2BB5674300EE69E3 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE69892BB5674300EE69E3 /* RecipeView.swift */; };
+		81CE698C2BB567FD00EE69E3 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE698B2BB567FD00EE69E3 /* RecipeCard.swift */; };
+		81CE698E2BB56F1900EE69E3 /* HorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE698D2BB56F1900EE69E3 /* HorizontalScrolling.swift */; };
+		81CE69902BB5843700EE69E3 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE698F2BB5843700EE69E3 /* RecipeDetailView.swift */; };
+		81CE69922BB5AA7300EE69E3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE69912BB5AA7300EE69E3 /* Extension.swift */; };
+		81CE69942BB623A500EE69E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CE69932BB623A500EE69E3 /* Launch Screen.storyboard */; };
+		81CE69982BB6399000EE69E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CE69972BB6399000EE69E3 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81CE69682BB5653200EE69E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CE694F2BB5652F00EE69E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CE69562BB5652F00EE69E3;
+			remoteInfo = "Ummi Recipe";
+		};
+		81CE69722BB5653200EE69E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CE694F2BB5652F00EE69E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CE69562BB5652F00EE69E3;
+			remoteInfo = "Ummi Recipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81CE69572BB5652F00EE69E3 /* Ummi Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ummi Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE695A2BB5652F00EE69E3 /* Ummi_RecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeApp.swift; sourceTree = "<group>"; };
+		81CE695E2BB5653200EE69E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81CE69612BB5653200EE69E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81CE69672BB5653200EE69E3 /* Ummi RecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ummi RecipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE696B2BB5653200EE69E3 /* Ummi_RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeTests.swift; sourceTree = "<group>"; };
+		81CE69712BB5653200EE69E3 /* Ummi RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ummi RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE69752BB5653200EE69E3 /* Ummi_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeUITests.swift; sourceTree = "<group>"; };
+		81CE69772BB5653200EE69E3 /* Ummi_RecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81CE69872BB565B800EE69E3 /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
+		81CE69892BB5674300EE69E3 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		81CE698B2BB567FD00EE69E3 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		81CE698D2BB56F1900EE69E3 /* HorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrolling.swift; sourceTree = "<group>"; };
+		81CE698F2BB5843700EE69E3 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		81CE69912BB5AA7300EE69E3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		81CE69932BB623A500EE69E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		81CE69972BB6399000EE69E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CE69542BB5652F00EE69E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CE69642BB5653200EE69E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CE696E2BB5653200EE69E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81CE694E2BB5652F00EE69E3 = {
+			isa = PBXGroup;
+			children = (
+				81CE69592BB5652F00EE69E3 /* Ummi Recipe */,
+				81CE696A2BB5653200EE69E3 /* Ummi RecipeTests */,
+				81CE69742BB5653200EE69E3 /* Ummi RecipeUITests */,
+				81CE69582BB5652F00EE69E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81CE69582BB5652F00EE69E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CE69572BB5652F00EE69E3 /* Ummi Recipe.app */,
+				81CE69672BB5653200EE69E3 /* Ummi RecipeTests.xctest */,
+				81CE69712BB5653200EE69E3 /* Ummi RecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CE69592BB5652F00EE69E3 /* Ummi Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				81CE69862BB5658500EE69E3 /* Views */,
+				81CE69852BB5656B00EE69E3 /* Components */,
+				81CE69842BB5654800EE69E3 /* ViewModel */,
+				81CE695A2BB5652F00EE69E3 /* Ummi_RecipeApp.swift */,
+				81CE695E2BB5653200EE69E3 /* Assets.xcassets */,
+				81CE69602BB5653200EE69E3 /* Preview Content */,
+				81CE69932BB623A500EE69E3 /* Launch Screen.storyboard */,
+				81CE69972BB6399000EE69E3 /* ContentView.swift */,
+			);
+			path = "Ummi Recipe";
+			sourceTree = "<group>";
+		};
+		81CE69602BB5653200EE69E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81CE69612BB5653200EE69E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81CE696A2BB5653200EE69E3 /* Ummi RecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				81CE696B2BB5653200EE69E3 /* Ummi_RecipeTests.swift */,
+			);
+			path = "Ummi RecipeTests";
+			sourceTree = "<group>";
+		};
+		81CE69742BB5653200EE69E3 /* Ummi RecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81CE69752BB5653200EE69E3 /* Ummi_RecipeUITests.swift */,
+				81CE69772BB5653200EE69E3 /* Ummi_RecipeUITestsLaunchTests.swift */,
+			);
+			path = "Ummi RecipeUITests";
+			sourceTree = "<group>";
+		};
+		81CE69842BB5654800EE69E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81CE69872BB565B800EE69E3 /* RecipeClass.swift */,
+				81CE69912BB5AA7300EE69E3 /* Extension.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81CE69852BB5656B00EE69E3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81CE698B2BB567FD00EE69E3 /* RecipeCard.swift */,
+				81CE698D2BB56F1900EE69E3 /* HorizontalScrolling.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		81CE69862BB5658500EE69E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81CE69892BB5674300EE69E3 /* RecipeView.swift */,
+				81CE698F2BB5843700EE69E3 /* RecipeDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CE69562BB5652F00EE69E3 /* Ummi Recipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CE697B2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi Recipe" */;
+			buildPhases = (
+				81CE69532BB5652F00EE69E3 /* Sources */,
+				81CE69542BB5652F00EE69E3 /* Frameworks */,
+				81CE69552BB5652F00EE69E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ummi Recipe";
+			productName = "Ummi Recipe";
+			productReference = 81CE69572BB5652F00EE69E3 /* Ummi Recipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81CE69662BB5653200EE69E3 /* Ummi RecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CE697E2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeTests" */;
+			buildPhases = (
+				81CE69632BB5653200EE69E3 /* Sources */,
+				81CE69642BB5653200EE69E3 /* Frameworks */,
+				81CE69652BB5653200EE69E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CE69692BB5653200EE69E3 /* PBXTargetDependency */,
+			);
+			name = "Ummi RecipeTests";
+			productName = "Ummi RecipeTests";
+			productReference = 81CE69672BB5653200EE69E3 /* Ummi RecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81CE69702BB5653200EE69E3 /* Ummi RecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CE69812BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeUITests" */;
+			buildPhases = (
+				81CE696D2BB5653200EE69E3 /* Sources */,
+				81CE696E2BB5653200EE69E3 /* Frameworks */,
+				81CE696F2BB5653200EE69E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CE69732BB5653200EE69E3 /* PBXTargetDependency */,
+			);
+			name = "Ummi RecipeUITests";
+			productName = "Ummi RecipeUITests";
+			productReference = 81CE69712BB5653200EE69E3 /* Ummi RecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CE694F2BB5652F00EE69E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					81CE69562BB5652F00EE69E3 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					81CE69662BB5653200EE69E3 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 81CE69562BB5652F00EE69E3;
+					};
+					81CE69702BB5653200EE69E3 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 81CE69562BB5652F00EE69E3;
+					};
+				};
+			};
+			buildConfigurationList = 81CE69522BB5652F00EE69E3 /* Build configuration list for PBXProject "Ummi Recipe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81CE694E2BB5652F00EE69E3;
+			productRefGroup = 81CE69582BB5652F00EE69E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CE69562BB5652F00EE69E3 /* Ummi Recipe */,
+				81CE69662BB5653200EE69E3 /* Ummi RecipeTests */,
+				81CE69702BB5653200EE69E3 /* Ummi RecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CE69552BB5652F00EE69E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CE69942BB623A500EE69E3 /* Launch Screen.storyboard in Resources */,
+				81CE69622BB5653200EE69E3 /* Preview Assets.xcassets in Resources */,
+				81CE695F2BB5653200EE69E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CE69652BB5653200EE69E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CE696F2BB5653200EE69E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CE69532BB5652F00EE69E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CE69902BB5843700EE69E3 /* RecipeDetailView.swift in Sources */,
+				81CE698E2BB56F1900EE69E3 /* HorizontalScrolling.swift in Sources */,
+				81CE69982BB6399000EE69E3 /* ContentView.swift in Sources */,
+				81CE698C2BB567FD00EE69E3 /* RecipeCard.swift in Sources */,
+				81CE695B2BB5652F00EE69E3 /* Ummi_RecipeApp.swift in Sources */,
+				81CE698A2BB5674300EE69E3 /* RecipeView.swift in Sources */,
+				81CE69882BB565B900EE69E3 /* RecipeClass.swift in Sources */,
+				81CE69922BB5AA7300EE69E3 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CE69632BB5653200EE69E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CE696C2BB5653200EE69E3 /* Ummi_RecipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CE696D2BB5653200EE69E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CE69782BB5653200EE69E3 /* Ummi_RecipeUITestsLaunchTests.swift in Sources */,
+				81CE69762BB5653200EE69E3 /* Ummi_RecipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81CE69692BB5653200EE69E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CE69562BB5652F00EE69E3 /* Ummi Recipe */;
+			targetProxy = 81CE69682BB5653200EE69E3 /* PBXContainerItemProxy */;
+		};
+		81CE69732BB5653200EE69E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CE69562BB5652F00EE69E3 /* Ummi Recipe */;
+			targetProxy = 81CE69722BB5653200EE69E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81CE69792BB5653200EE69E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81CE697A2BB5653200EE69E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81CE697C2BB5653200EE69E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ummi Recipe/Preview Content\"";
+				DEVELOPMENT_TEAM = V6Z63JTKRK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaluIman.Ummi-Recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CE697D2BB5653200EE69E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ummi Recipe/Preview Content\"";
+				DEVELOPMENT_TEAM = V6Z63JTKRK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaluIman.Ummi-Recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81CE697F2BB5653200EE69E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Z63JTKRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaluIman.Ummi-RecipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ummi Recipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ummi Recipe";
+			};
+			name = Debug;
+		};
+		81CE69802BB5653200EE69E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Z63JTKRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaluIman.Ummi-RecipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ummi Recipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ummi Recipe";
+			};
+			name = Release;
+		};
+		81CE69822BB5653200EE69E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Z63JTKRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaluIman.Ummi-RecipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ummi Recipe";
+			};
+			name = Debug;
+		};
+		81CE69832BB5653200EE69E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Z63JTKRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LaluIman.Ummi-RecipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ummi Recipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CE69522BB5652F00EE69E3 /* Build configuration list for PBXProject "Ummi Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CE69792BB5653200EE69E3 /* Debug */,
+				81CE697A2BB5653200EE69E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CE697B2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CE697C2BB5653200EE69E3 /* Debug */,
+				81CE697D2BB5653200EE69E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CE697E2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CE697F2BB5653200EE69E3 /* Debug */,
+				81CE69802BB5653200EE69E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CE69812BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CE69822BB5653200EE69E3 /* Debug */,
+				81CE69832BB5653200EE69E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CE694F2BB5652F00EE69E3 /* Project object */;
+}
