@@ -14,24 +14,7 @@ struct RecipeView: View {
     var body: some View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false){
-//                HorizontalScrolling(recipeManager: recipeManager)
-//                    .padding(.vertical)
-                ScrollView(.horizontal, showsIndicators: false){
-                    HStack{
-                        ForEach(recipeManager.recipes){ recipe in
-                            Text(recipe.title)
-                                .foregroundStyle(Color.white)
-                                .font(.system(size: 20)).bold()
-                                .padding(10)
-                                .background(.gray.opacity(0.6))
-                                .clipShape(RoundedCorners(radius: 10))
-                        }
-                    }
-                    .padding(.horizontal)
-                }
-                .padding(.bottom, -3)
-                .padding(.top, 5)
-            
+                
                 VStack(alignment: .leading){
                     VStack {
                         Text("Menu Populer")

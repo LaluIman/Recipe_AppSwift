@@ -16,14 +16,12 @@ struct RecipeCard: View {
                     .resizable()
                     //a.scaledToFit()
                     .scaledToFill() //fill all space
-                    .frame(maxHeight: 190)
-                    .padding(10)
+                    .padding(5)
             }
-            .frame(maxWidth: .infinity, maxHeight: 250)
+            .frame(maxWidth: .infinity, maxHeight: 260)
             .background(.gray.opacity(0.0))
-            .clipShape(RoundedCorners(radius: 70))
+            .clipShape(RoundedCorners(radius: 20))
             .shadow(color:.black.opacity(0.1), radius: 10, x: 0, y: 6)
-            
             // text
             VStack(alignment: .leading, spacing: 8){
                 HStack {

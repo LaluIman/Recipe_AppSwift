@@ -19,11 +19,9 @@ struct RecipeDetailView: View {
             Image(recipe.imageName)
               .resizable()
               .scaledToFill()
-              .frame(maxHeight: 250)
-              .padding(10)
           }
           .background(.gray.opacity(0.0))
-          .clipShape(RoundedCorners(radius: 50))
+          .clipShape(RoundedCorners(radius: 20))
           .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 5)
           .padding()
 
@@ -96,7 +94,7 @@ struct RecipeDetailView: View {
           .cornerRadius(25, corners: [.topLeft, .topRight])
         }
       }
-      .background(LinearGradient(colors: [.gray.opacity(0.2),.gray.opacity(0.4)], startPoint: .topLeading, endPoint: .bottomTrailing))
+      .background(.gray.opacity(0.2))
       .navigationTitle(recipe.title)
       .navigationBarItems(trailing: Button(action: {
         }) {

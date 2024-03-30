@@ -41,13 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81CE69572BB5652F00EE69E3 /* Ummi Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ummi Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE69572BB5652F00EE69E3 /* Mom Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mom Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CE695A2BB5652F00EE69E3 /* Ummi_RecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeApp.swift; sourceTree = "<group>"; };
 		81CE695E2BB5653200EE69E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CE69612BB5653200EE69E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81CE69672BB5653200EE69E3 /* Ummi RecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ummi RecipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE69672BB5653200EE69E3 /* Mom RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mom RecipesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CE696B2BB5653200EE69E3 /* Ummi_RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeTests.swift; sourceTree = "<group>"; };
-		81CE69712BB5653200EE69E3 /* Ummi RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ummi RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE69712BB5653200EE69E3 /* Mom RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mom RecipesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CE69752BB5653200EE69E3 /* Ummi_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeUITests.swift; sourceTree = "<group>"; };
 		81CE69772BB5653200EE69E3 /* Ummi_RecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ummi_RecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		81CE69872BB565B800EE69E3 /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 		81CE69582BB5652F00EE69E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81CE69572BB5652F00EE69E3 /* Ummi Recipe.app */,
-				81CE69672BB5653200EE69E3 /* Ummi RecipeTests.xctest */,
-				81CE69712BB5653200EE69E3 /* Ummi RecipeUITests.xctest */,
+				81CE69572BB5652F00EE69E3 /* Mom Recipes.app */,
+				81CE69672BB5653200EE69E3 /* Mom RecipesTests.xctest */,
+				81CE69712BB5653200EE69E3 /* Mom RecipesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81CE69562BB5652F00EE69E3 /* Ummi Recipe */ = {
+		81CE69562BB5652F00EE69E3 /* Mom Recipes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81CE697B2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi Recipe" */;
+			buildConfigurationList = 81CE697B2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Mom Recipes" */;
 			buildPhases = (
 				81CE69532BB5652F00EE69E3 /* Sources */,
 				81CE69542BB5652F00EE69E3 /* Frameworks */,
@@ -187,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = "Ummi Recipe";
+			name = "Mom Recipes";
 			productName = "Ummi Recipe";
-			productReference = 81CE69572BB5652F00EE69E3 /* Ummi Recipe.app */;
+			productReference = 81CE69572BB5652F00EE69E3 /* Mom Recipes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81CE69662BB5653200EE69E3 /* Ummi RecipeTests */ = {
+		81CE69662BB5653200EE69E3 /* Mom RecipesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81CE697E2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeTests" */;
+			buildConfigurationList = 81CE697E2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Mom RecipesTests" */;
 			buildPhases = (
 				81CE69632BB5653200EE69E3 /* Sources */,
 				81CE69642BB5653200EE69E3 /* Frameworks */,
@@ -205,14 +205,14 @@
 			dependencies = (
 				81CE69692BB5653200EE69E3 /* PBXTargetDependency */,
 			);
-			name = "Ummi RecipeTests";
+			name = "Mom RecipesTests";
 			productName = "Ummi RecipeTests";
-			productReference = 81CE69672BB5653200EE69E3 /* Ummi RecipeTests.xctest */;
+			productReference = 81CE69672BB5653200EE69E3 /* Mom RecipesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		81CE69702BB5653200EE69E3 /* Ummi RecipeUITests */ = {
+		81CE69702BB5653200EE69E3 /* Mom RecipesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81CE69812BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeUITests" */;
+			buildConfigurationList = 81CE69812BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Mom RecipesUITests" */;
 			buildPhases = (
 				81CE696D2BB5653200EE69E3 /* Sources */,
 				81CE696E2BB5653200EE69E3 /* Frameworks */,
@@ -223,9 +223,9 @@
 			dependencies = (
 				81CE69732BB5653200EE69E3 /* PBXTargetDependency */,
 			);
-			name = "Ummi RecipeUITests";
+			name = "Mom RecipesUITests";
 			productName = "Ummi RecipeUITests";
-			productReference = 81CE69712BB5653200EE69E3 /* Ummi RecipeUITests.xctest */;
+			productReference = 81CE69712BB5653200EE69E3 /* Mom RecipesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81CE69522BB5652F00EE69E3 /* Build configuration list for PBXProject "Ummi Recipe" */;
+			buildConfigurationList = 81CE69522BB5652F00EE69E3 /* Build configuration list for PBXProject "Mom Recipes" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81CE69562BB5652F00EE69E3 /* Ummi Recipe */,
-				81CE69662BB5653200EE69E3 /* Ummi RecipeTests */,
-				81CE69702BB5653200EE69E3 /* Ummi RecipeUITests */,
+				81CE69562BB5652F00EE69E3 /* Mom Recipes */,
+				81CE69662BB5653200EE69E3 /* Mom RecipesTests */,
+				81CE69702BB5653200EE69E3 /* Mom RecipesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,12 +336,12 @@
 /* Begin PBXTargetDependency section */
 		81CE69692BB5653200EE69E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81CE69562BB5652F00EE69E3 /* Ummi Recipe */;
+			target = 81CE69562BB5652F00EE69E3 /* Mom Recipes */;
 			targetProxy = 81CE69682BB5653200EE69E3 /* PBXContainerItemProxy */;
 		};
 		81CE69732BB5653200EE69E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81CE69562BB5652F00EE69E3 /* Ummi Recipe */;
+			target = 81CE69562BB5652F00EE69E3 /* Mom Recipes */;
 			targetProxy = 81CE69722BB5653200EE69E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,6 +480,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,6 +510,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +542,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ummi Recipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ummi Recipe";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mom Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mom Recipes";
 			};
 			name = Debug;
 		};
@@ -560,7 +562,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ummi Recipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ummi Recipe";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mom Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mom Recipes";
 			};
 			name = Release;
 		};
@@ -603,7 +605,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81CE69522BB5652F00EE69E3 /* Build configuration list for PBXProject "Ummi Recipe" */ = {
+		81CE69522BB5652F00EE69E3 /* Build configuration list for PBXProject "Mom Recipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81CE69792BB5653200EE69E3 /* Debug */,
@@ -612,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81CE697B2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi Recipe" */ = {
+		81CE697B2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Mom Recipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81CE697C2BB5653200EE69E3 /* Debug */,
@@ -621,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81CE697E2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeTests" */ = {
+		81CE697E2BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Mom RecipesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81CE697F2BB5653200EE69E3 /* Debug */,
@@ -630,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81CE69812BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Ummi RecipeUITests" */ = {
+		81CE69812BB5653200EE69E3 /* Build configuration list for PBXNativeTarget "Mom RecipesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81CE69822BB5653200EE69E3 /* Debug */,
